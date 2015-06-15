@@ -32,4 +32,11 @@ public class Lecon4DesMethodesTest {
 
 		assertThat(element).isEqualTo("second");
 	}
+
+	@Test
+	public void d_je_fais_l_addition_de_2_valeurs() throws Exception {
+		int somme = lecon4.je_fais_l_addition_des_2(3, 6);
+
+		assertThat(somme).isEqualTo(9);
+	}
 }

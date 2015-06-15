@@ -13,4 +13,8 @@ public class Lecon4DesMethodes {
 	public String je_retourne_le_second_element_du_tableau(String[] tableau) {
 		return "";
 	}
+	
+	public int je_fais_l_addition_des_2(int valeur1, int valeur2) {
+		return 0;
+	}
 }
